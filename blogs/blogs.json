@@ -1,0 +1,14 @@
+{
+  "repo": "skiptown",
+  "feeds": [
+    {
+      "source": "https://skiptown.io/",
+      "feed_url": "https://skiptown.io/feed/",
+      "title": "",
+      "saved": 10,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-08-01T15:38:58Z"
+}

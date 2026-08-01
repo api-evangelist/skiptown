@@ -1,7 +1,25 @@
 aid: skiptown
 name: Skiptown
-description: Skiptown is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Skiptown is a modern pet-care company operating premium dog daycare,
+  boarding, grooming, and walking services alongside its signature Dog Bar & Park
+  — an indoor/outdoor social club where owners enjoy craft cocktails and coffee while
+  dogs play off-leash. Backed by Techstars, Skiptown runs company-owned locations in
+  Charlotte, Atlanta, and Denver and offers franchise expansion opportunities. Its
+  consumer experience is delivered through a mobile app for booking, curbside dropoff,
+  and daily photo updates. Skiptown does not currently publish a public API or developer
+  platform; this profile captures its public web and security posture.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://skiptown.io/wp-content/uploads/2025/10/social-graph-skiptown.webp
 url: https://raw.githubusercontent.com/api-evangelist/skiptown/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Pet Care
+- Dog Daycare
+- Pet Services
+- Consumer App
+- Franchise
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,20 @@ maintainers:
 common:
 - type: Website
   url: https://skiptown.io/
+- type: Blog
+  url: https://skiptown.io/blog/
+- type: SignUp
+  url: https://app.skiptown.io/
+- type: Support
+  url: https://skiptown.io/contact/
+- type: PrivacyPolicy
+  url: https://skiptown.io/legal-policies/privacy/
+- type: TermsOfService
+  url: https://skiptown.io/legal-policies/terms-conditions/
+- type: DomainSecurity
+  url: security/skiptown-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
