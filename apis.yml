@@ -8,6 +8,17 @@ description: 'Skiptown is a modern pet-care company operating premium dog daycar
   consumer experience is delivered through a mobile app for booking, curbside dropoff,
   and daily photo updates. Skiptown does not currently publish a public API or developer
   platform; this profile captures its public web and security posture.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
